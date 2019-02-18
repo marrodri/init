@@ -1,0 +1,1 @@
+ifconfig -a link | grep en1 --context=1
