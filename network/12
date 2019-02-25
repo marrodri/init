@@ -1,2 +1,2 @@
+ipconfig getifaddr en0
 #ifconfig en0 | grep broadcast
-#ipconfig getifaddr en0
