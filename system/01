@@ -1,0 +1,1 @@
+echo cat /etc/debian_version shows which debian version you're running

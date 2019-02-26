@@ -1,0 +1,1 @@
+echo the file that contains the RSA keys for the SSH is in /etc/ssh/ssh_host_ed25519_key, but the location can be changed in server configuration
