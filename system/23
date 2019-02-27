@@ -1,1 +1,9 @@
-first switch user with su -l *username*
+#first create a user in the root user, second allow the user by edting the file
+#as a root user /etc/ssh/sshd_config, by appending the following:
+#Port 1234
+#PermitRootLogin no
+#AllowUsers username
+#after appending the text on the file, run the command:
+#"AllowUsers username@1.2.3.4"
+#after that run the command "service ssh reload" to apply
+#the new configuration
