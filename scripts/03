@@ -1,0 +1,15 @@
+#!/bin/bash
+
+ans=""
+
+echo "wanna feel good? (y/n)"
+read ans
+
+if [ "$ans" = "y" ]; then 
+		echo "good, now you feel good, you may go"
+elif [ "$ans" = "n" ]; then
+		echo "well, at least I tried"
+else
+		echo "I don't understand what you're saying, good bye!!!"
+fi
+

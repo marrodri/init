@@ -1,0 +1,5 @@
+#!/bin/bash
+
+read -p "Enter the user you want to delete: " username
+
+userdel -r $username
