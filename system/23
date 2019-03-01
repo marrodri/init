@@ -7,3 +7,4 @@
 #"AllowUsers username@1.2.3.4"
 #after that run the command "service ssh reload" to apply
 #the new configuration
+#su username and then run whoami to see the new user

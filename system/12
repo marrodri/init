@@ -1,1 +1,3 @@
 ls -l -h /var
+||
+du -sh /var/*

@@ -1,2 +1,1 @@
-ipconfig getifaddr en0
-#ifconfig en0 | grep broadcast
+ipconfig getpacket en0 | grep server_identifier
